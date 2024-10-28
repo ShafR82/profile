@@ -23,12 +23,22 @@ a{
   color:#e7b14c;
   text-decoration: unset;
 }
+
+.button{
+  font-family: Arial, sans-serif;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5%;
+}
+
 a:hover{
   color:white;
+  background-color: grey;
+
 }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 600px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -36,6 +46,7 @@ a:hover{
   border-radius: 50%;   /* makes image round */
   filter: grayscale(100%);
   border-style: double;
+  width: 250px;
 }
 
 .list-inline > li {
