@@ -1,0 +1,82 @@
+body{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size :1.25em;
+  background-image: url("./images/pexels-felixmittermeier-956981.jpg");
+  background-size: cover;
+  background-color: #000000;
+  color: white;
+  line-height: 125%;
+}
+
+h1,h2,h3{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size :2em;
+  color: white;
+  line-height: 150%;
+}
+
+a{
+  color:#e7b14c;
+  text-decoration: unset;
+}
+a:hover{
+  color:white;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;   /* makes image round */
+  filter: grayscale(100%);
+  border-style: double;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 3em;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-grey {
+  background: rgba(10,10,10,0.5);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
